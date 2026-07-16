@@ -379,3 +379,14 @@ export function computeCosineSimilarityMock(query: string, chunk: RAGChunk): num
   const increment = (matches / Math.max(chunk.keywords.length, 1)) * 0.5;
   return Math.min(parseFloat((baseScore + increment + (query.length % 5) * 0.01).toFixed(4)), 0.98);
 }
+
+export interface IncidentRecord {
+  id: string;
+  description: string;
+  category: string;
+  severity: 'Low' | 'Medium' | 'High';
+  confidence: number;
+  dispatcher: string;
+  status: 'Dispatched' | 'Resolved';
+  timestamp: string;
+}
