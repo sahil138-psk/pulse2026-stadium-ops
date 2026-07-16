@@ -574,3 +574,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
   }
 }
+
+/* Accessible SVG Node Focus Indicators */
+g[role="button"]:focus {
+  outline: none;
+}
+g[role="button"]:focus circle,
+g[role="button"]:focus-visible circle {
+  stroke: #ffffff !important;
+  stroke-width: 3px !important;
+  filter: drop-shadow(0 0 10px rgba(0, 229, 255, 0.8));
+}
