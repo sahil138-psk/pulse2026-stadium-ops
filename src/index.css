@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.25rem;
 }
 
-.logo-text h2 {
+.logo-text h1 {
   font-size: 1.25rem;
   background: linear-gradient(90deg, var(--text-primary) 30%, var(--accent-gold) 100%);
   -webkit-background-clip: text;

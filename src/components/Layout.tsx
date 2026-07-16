@@ -26,7 +26,7 @@ export default function Layout({ activeTab, setActiveTab, liveAlerts, children }
         <div className="sidebar-header">
           <div className="logo-icon" aria-hidden="true">★</div>
           <div className="logo-text">
-            <h2>Pulse2026</h2>
+            <h1>Pulse2026</h1>
             <p>Stadium Operations AI</p>
           </div>
         </div>
