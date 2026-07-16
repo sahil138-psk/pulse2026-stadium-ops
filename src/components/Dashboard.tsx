@@ -132,7 +132,7 @@ export default function Dashboard({
         </g>
       </svg>
     );
-  }, [selectedGate, queuePredictions, handleGateKeyDown]);
+  }, [selectedGate, queuePredictions, handleGateKeyDown, setSelectedGate]);
 
   // Render SVG Wait times Graph memoized (Efficiency booster)
   const waitTimeChart = useMemo(() => {

@@ -126,6 +126,14 @@ export const ragKnowledgeBase: RAGChunk[] = [
     content: 'Wheelchair seating is available in Row W of sectors 101-105, 118-122, and 205-210. Audio description devices for visually impaired spectators can be checked out at Guest Services (Sector 101). Sensory-friendly quiet rooms are located at Suite Level 2, Room 24A, offering a noise-reduced environment for neurodivergent guests.',
     embedding: [0.88, 0.42],
     keywords: ['ADA accommodations', 'wheelchair seating', 'audio description', 'sensory room', 'guest services']
+  },
+  {
+    id: 'chunk-9',
+    category: 'Transit',
+    title: 'Real-Time Decision Support & Operational Intelligence',
+    content: 'Pulse2026 provides a real-time decision support system (DSS) for the FIFA World Cup 2026, delivering operational intelligence across all sectors. The platform uses Generative AI to coordinate security dispatches, shuttle transit bay B timetables, gate flow congestion rerouting, and fan green rewards scanning. Volunteers coordinate in real time to resolve bottlenecks.',
+    embedding: [0.55, 0.55],
+    keywords: ['decision support', 'operational intelligence', 'real-time decision', 'triage', 'FIFA World Cup 2026', 'volunteer coordination']
   }
 ];
 
